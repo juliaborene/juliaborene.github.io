@@ -1,0 +1,20 @@
+
+.svg{
+    display: flex;
+}
+
+@media (max-width: 1025px){
+    .projetos-svg{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px){
+    .projetos-svg{
+        align-items: center;
+    }
+    .text{
+        display: none;
+    }
+}

@@ -1,0 +1,4 @@
+.nav-list a:hover{
+    color: #80563A;
+    transition: .3s all ease-in-out;
+}
